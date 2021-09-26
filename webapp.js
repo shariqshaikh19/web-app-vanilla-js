@@ -40,5 +40,5 @@ function clickEventHandler(){
         var translatedText= json.contents.translated;
         divOutput.innerText= translatedText;
     })
-    .catch(errorHandler)
+    .catch(errorHandler)//error.message
 }
